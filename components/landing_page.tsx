@@ -43,6 +43,7 @@ export function Landing_page() {
           <div className="flex-grow relative z-10 w-full">
               <Link
                   href="https://www.instagram.com/greenegin.karate"
+                {/*
                   className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden cursor-pointer transition-all hover:scale-105 animate-float-complex-1 hover:shadow-lg"
                   style={{
                       left: '10%',
@@ -54,6 +55,7 @@ export function Landing_page() {
                   aria-label="Discover Karate Lessons"
                   target="_blank"
                   rel="noopener noreferrer"
+                */}
               >
                   <Image
                       src={karatePic}
@@ -62,6 +64,7 @@ export function Landing_page() {
                       style={{objectFit: 'cover'}}
                       sizes="(max-width: 768px) 128px, 256px"
                   />
+            {/*
                   <div
                       className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center transition-opacity opacity-0 hover:opacity-100">
                       <div className="text-center">
@@ -69,6 +72,7 @@ export function Landing_page() {
                           <p className="text-amber-300 text-lg md:text-2xl">Lessons</p>
                       </div>
                   </div>
+             */}
               </Link>
               <Link
                   href="https://www.instagram.com/greenegin.kokedamas"
