@@ -58,15 +58,6 @@ export function Landing_page() {
                       style={{objectFit: 'cover'}}
                       sizes="(max-width: 768px) 128px, 256px"
                   />
-                {/*
-                  <div
-                      className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center transition-opacity opacity-0 hover:opacity-100">
-                      <div className="text-center">
-                          <p className="text-amber-300 text-xl md:text-3xl font-semibold">Karate</p>
-                          <p className="text-amber-300 text-lg md:text-2xl">Lessons</p>
-                      </div>
-                  </div>
-                */}
               </Link>
               <Link
                   href="https://www.instagram.com/greenegin.kokedamas"
@@ -89,13 +80,6 @@ export function Landing_page() {
                       style={{objectFit: 'cover'}}
                       sizes="(max-width: 768px) 128px, 256px"
                   />
-                  <div
-                      className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center transition-opacity opacity-0 hover:opacity-100">
-                      <div className="text-center">
-                          <p className="text-amber-300 text-xl md:text-3xl font-semibold">Handmade</p>
-                          <p className="text-amber-300 text-lg md:text-2xl">Kokedamas</p>
-                      </div>
-                  </div>
               </Link>
           </div>
       </div>
