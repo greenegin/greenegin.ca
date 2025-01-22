@@ -28,12 +28,6 @@ export function Landing_page() {
               {/* Circles */}
               <div
                   className="absolute top-1/4 left-1/4 w-16 h-16 rounded-full bg-amber-300 opacity-20 animate-float-slow"></div>
-            {/*
-              <div
-                  className="absolute bottom-1/3 right-1/4 w-24 h-24 rounded-full bg-pink-300 opacity-15 animate-float-slower"></div>
-              <div
-                  className="absolute top-1/2 right-1/3 w-12 h-12 rounded-full bg-blue-300 opacity-20 animate-pulse"></div>
-              */}
           </div>
 
           <h1 className="relative z-10 text-5xl md:text-7xl font-bold text-amber-300 text-center px-4 pt-12 md:pt-16 tracking-wide">
@@ -43,7 +37,7 @@ export function Landing_page() {
           <div className="flex-grow relative z-10 w-full">
               <Link
                   href="https://www.instagram.com/greenegin.karate"
-                {/*
+               
                   className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden cursor-pointer transition-all hover:scale-105 animate-float-complex-1 hover:shadow-lg"
                   style={{
                       left: '10%',
@@ -55,7 +49,7 @@ export function Landing_page() {
                   aria-label="Discover Karate Lessons"
                   target="_blank"
                   rel="noopener noreferrer"
-                */}
+             
               >
                   <Image
                       src={karatePic}
@@ -64,7 +58,7 @@ export function Landing_page() {
                       style={{objectFit: 'cover'}}
                       sizes="(max-width: 768px) 128px, 256px"
                   />
-            {/*
+                {/*
                   <div
                       className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center transition-opacity opacity-0 hover:opacity-100">
                       <div className="text-center">
@@ -72,7 +66,7 @@ export function Landing_page() {
                           <p className="text-amber-300 text-lg md:text-2xl">Lessons</p>
                       </div>
                   </div>
-             */}
+                */}
               </Link>
               <Link
                   href="https://www.instagram.com/greenegin.kokedamas"
