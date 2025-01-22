@@ -36,7 +36,9 @@ export function Landing_page() {
           </div>
 
           <h1 className="relative z-10 text-5xl md:text-7xl font-bold text-amber-300 text-center px-4 pt-12 md:pt-16 tracking-wide">
-              Discover
+              DISCOVER
+              THE
+              ARTS OF JAPAN
           </h1>
 
           <div className="flex-grow relative z-10 w-full">
@@ -99,10 +101,11 @@ export function Landing_page() {
                   </div>
               </Link>
           </div>
-
+        {/*
           <h2 className="relative z-10 text-5xl md:text-7xl font-bold text-amber-300 text-center px-4 pb-12 md:pb-16 tracking-wide">
               Arts of Japan
           </h2>
+          */}
       </div>
   )
 }
