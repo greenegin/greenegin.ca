@@ -21,8 +21,8 @@ export function Landing_page() {
               className="absolute inset-0 bg-cover bg-center"
               style={{backgroundImage: `url(${backgroundPic.src})`}}
           />
-          <div className="absolute inset-0 bg-black opacity-50"/>
-          <div className="absolute inset-0 bg-white opacity-30"/>
+        {/*<div className="absolute inset-0 bg-black opacity-50"/>*/}
+        {/*<div className="absolute inset-0 bg-white opacity-30"/>*/}
 
           {/* Animated background shapes */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
