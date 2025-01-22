@@ -33,22 +33,6 @@ export function Landing_page() {
                   className="absolute bottom-1/3 right-1/4 w-24 h-24 rounded-full bg-pink-300 opacity-15 animate-float-slower"></div>
               <div
                   className="absolute top-1/2 right-1/3 w-12 h-12 rounded-full bg-blue-300 opacity-20 animate-pulse"></div>
-
-              {/* Triangles */}
-              <svg className="absolute top-1/3 left-1/3 w-20 h-20 animate-sway" viewBox="0 0 100 100">
-                  <polygon points="50,15 100,100 0,100" fill="rgba(255,255,255,0.1)"/>
-              </svg>
-              <svg className="absolute bottom-1/4 right-1/3 w-16 h-16 animate-sway-delayed" viewBox="0 0 100 100">
-                  <polygon points="50,0 100,100 0,100" fill="rgba(255,255,255,0.08)"/>
-              </svg>
-
-              {/* Additional shapes */}
-              <svg className="absolute top-1/6 left-2/3 w-16 h-16 animate-spin-slow" viewBox="0 0 100 100">
-                  <rect x="25" y="25" width="50" height="50" fill="rgba(255,255,255,0.1)" transform="rotate(45 50 50)"/>
-              </svg>
-              <svg className="absolute bottom-1/6 left-1/6 w-20 h-20 animate-bounce-slow" viewBox="0 0 100 100">
-                  <circle cx="50" cy="50" r="40" fill="rgba(255,255,255,0.07)"/>
-              </svg>
           </div>
 
           <h1 className="relative z-10 text-5xl md:text-7xl font-bold text-amber-300 text-center px-4 pt-12 md:pt-16 tracking-wide">
