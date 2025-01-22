@@ -38,7 +38,7 @@ export function Landing_page() {
           </div>
 
           <h1 className="relative z-10 text-5xl md:text-7xl font-bold text-amber-300 text-center px-4 pt-12 md:pt-16 tracking-wide">
-              DISCOVER THE ARTS OF JAPAN
+              DISCOVER <br> THE <br> ARTS OF JAPAN
           </h1>
 
           <div className="flex-grow relative z-10 w-full">
