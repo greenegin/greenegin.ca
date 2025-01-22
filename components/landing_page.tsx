@@ -29,12 +29,12 @@ export function Landing_page() {
               {/* Circles */}
               <div
                   className="absolute top-1/4 left-1/4 w-16 h-16 rounded-full bg-amber-300 opacity-20 animate-float-slow"></div>
-              /*
+            {/*
               <div
                   className="absolute bottom-1/3 right-1/4 w-24 h-24 rounded-full bg-pink-300 opacity-15 animate-float-slower"></div>
               <div
                   className="absolute top-1/2 right-1/3 w-12 h-12 rounded-full bg-blue-300 opacity-20 animate-pulse"></div>
-              */
+              */}
           </div>
 
           <h1 className="relative z-10 text-5xl md:text-7xl font-bold text-amber-300 text-center px-4 pt-12 md:pt-16 tracking-wide">
