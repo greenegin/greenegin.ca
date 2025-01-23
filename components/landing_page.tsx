@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import kokedamaPic from '/images/kokedamas.jpg'
+import kokedamaPic from '/images/kokedamas.svg'
 import karatePic from '/images/karate.svg'
 import backgroundPic from '/images/ritsurin.jpg'
 import { Zen_Kaku_Gothic_New } from 'next/font/google'
