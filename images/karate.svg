@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 936 936">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 176px;
+      }
+
+      .st0, .st1, .st2 {
+        isolation: isolate;
+      }
+
+      .st0, .st2 {
+        font-family: STBaoliSC-Regular, 'Baoli SC';
+      }
+
+      .st0, .st3 {
+        fill: #fff3c7;
+      }
+
+      .st2 {
+        fill: #be1e2d;
+        font-size: 216px;
+        glyph-orientation-vertical: 0deg;
+        text-orientation: upright;
+        writing-mode: tb;
+      }
+
+      .st4 {
+        fill: #323542;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2">
+    <g id="ficon_karate">
+      <circle class="st4" cx="468" cy="468" r="468"/>
+      <g class="st1">
+        <text class="st0" transform="translate(384.2 152.8) rotate(-4.3)"><tspan x="0" y="0">K</tspan></text>
+      </g>
+      <g class="st1">
+        <text class="st0" transform="translate(495.5 144.2) rotate(14.2)"><tspan x="0" y="0">A</tspan></text>
+      </g>
+      <g class="st1">
+        <text class="st0" transform="translate(589.8 166.3) rotate(31.8)"><tspan x="0" y="0">R</tspan></text>
+      </g>
+      <g class="st1">
+        <text class="st0" transform="translate(677.7 219.8) rotate(49.5)"><tspan x="0" y="0">A</tspan></text>
+      </g>
+      <g class="st1">
+        <text class="st0" transform="translate(741 293.7) rotate(65.6)"><tspan x="0" y="0">T</tspan></text>
+      </g>
+      <g class="st1">
+        <text class="st0" transform="translate(778 368.9) rotate(82.1)"><tspan x="0" y="0">E</tspan></text>
+      </g>
+      <circle class="st3" cx="468" cy="468" r="288"/>
+      <g class="st1">
+        <text class="st2" transform="translate(468 252)"><tspan x="0" y="0">空手</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
