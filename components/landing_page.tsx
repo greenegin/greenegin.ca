@@ -23,13 +23,6 @@ export function Landing_page() {
           />
         <div className="absolute inset-0 bg-black opacity-40"/>
 
-          {/* Animated background shapes */}
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              {/* Circles */}
-              <div
-                  className="absolute top-1/4 left-1/4 w-16 h-16 rounded-full bg-amber-300 opacity-100 animate-float"></div>
-          </div>
-
           <h1 className="relative z-10 text-5xl md:text-7xl font-bold text-amber-300 text-center px-4 pt-12 md:pt-16 tracking-wide">
               DISCOVER <br /> THE <br /> ARTS OF JAPAN
           </h1>
