@@ -73,6 +73,40 @@ export function Landing_page() {
           </div>
         */}
 
+        {/* Interactive Buttons */}
+        <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-8">
+          <motion.div
+            initial={{ x: -100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+          >
+            <Link href="https://instagram.com/greenegin.karate" target="_blank">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/karate-5X4WarNITuHxxbJiKpfa5voJtZ1upK.svg"
+                alt="Karate"
+                width={150}
+                height={150}
+                className="hover:scale-110 transition-transform duration-500"
+              />
+            </Link>
+          </motion.div>
+
+          <motion.div
+            initial={{ x: 100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+          >
+            <Link href="https://instagram.com/greenegin.kokedamas" target="_blank">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kokedamas-AJfX3EbVL7EufH946Qj51w0yh62i6h.svg"
+                alt="Kokedamas"
+                width={150}
+                height={150}
+                className="hover:scale-110 transition-transform duration-500"
+              />
+            </Link>
+          </motion.div>
+        </div>
 
         
       </div>
