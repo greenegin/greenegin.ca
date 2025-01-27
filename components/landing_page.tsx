@@ -8,7 +8,7 @@ import backgroundPic from '/images/ritsurin.jpg'
 
 export function Landing_page() {
   return (
-      <div className="relative min-h-screen flex flex-col justify-between overflow-hidden">
+      <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
           {/* Background image with muted effect */}
           <div
               className="absolute inset-0 bg-cover bg-center"
@@ -16,11 +16,11 @@ export function Landing_page() {
           />
           <div className="absolute inset-0 bg-black opacity-40"/>
 
-          <h1 className="relative z-10 text-3xl md:text-5xl font-bold text-center px-4 pt-12 md:pt-16 tracking-wide">
+          <h1 className="relative z-10 text-3xl md:text-5xl font-bold text-center px-4">
               DISCOVER <br /> THE <br /> ARTS OF JAPAN
           </h1>
 
-          <div className="flex-grow relative z-10 w-full">
+          <div className="absolute inset-0 z-10">
               <Link
                   href="https://www.instagram.com/greenegin.karate"
                   className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden cursor-pointer transition-all hover:scale-105 animate-float-complex-1 hover:shadow-lg"
