@@ -16,7 +16,7 @@ export function Landing_page() {
           />
           <div className="absolute inset-0 bg-black opacity-40"/>
 
-          <h1 className="relative z-10 text-5xl md:text-7xl font-bold text-center px-4 pt-12 md:pt-16 tracking-wide">
+          <h1 className="relative z-10 text-4xl md:text-7xl font-bold text-center px-4 pt-12 md:pt-16 tracking-wide">
               DISCOVER <br /> THE <br /> ARTS OF JAPAN
           </h1>
 
