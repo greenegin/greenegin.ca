@@ -30,7 +30,7 @@ export function Landing_page() {
                   style={{
                       left: '10%',
                       top: '20%',
-                      animationDuration: '60s',
+                      animationDuration: '70s',
                       animationTimingFunction: 'ease-in-out',
                       animationIterationCount: 'infinite'
                   }}
@@ -43,7 +43,7 @@ export function Landing_page() {
                       alt="Karate"
                       fill
                       style={{objectFit: 'cover'}}
-                      sizes="(max-width: 512px) 128px, 256px"
+                      sizes="(max-width: 768px) 128px, 256px"
                       className="opacity-100"
                   />
               </Link>
