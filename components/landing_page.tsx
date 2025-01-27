@@ -5,16 +5,16 @@ import Image from 'next/image'
 import kokedamaPic from '/images/kokedamas.svg'
 import karatePic from '/images/karate.svg'
 import backgroundPic from '/images/ritsurin.jpg'
-import { Zen_Antique_Soft } from 'next/font/google'
+import { Zen_Kaku_Gothic_New } from 'next/font/google'
 
-const zenKaku = Zen_Antique_Soft({
+const zenKaku = Zen_Kaku_Gothic_New({
   weight: ['400', '700'],
   subsets: ['latin'],
-  //display: 'swap',
+  display: 'swap',
 })
 
 /*
-Zen_Kaku_Gothic_New
+
 */
 export function Landing_page() {
   return (
