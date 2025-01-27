@@ -16,10 +16,8 @@ export function Landing_page() {
           />
           <div className="absolute inset-0 bg-black opacity-40"/>
 
-          <h1 className="relative z-10 text-5xl md:text-7xl font-bold text-center px-4">
-            <span className="block">DISCOVER</span>
-            <span className="block">THE</span>
-            <span className="block">ARTS OF JAPAN</span>
+          <h1 className="relative z-10 text-4xl md:text-6xl font-bold text-center px-4 tracking-widest leading-relaxed">
+              DISCOVER <br /> THE <br /> ARTS OF JAPAN
           </h1>
 
           <div className="absolute inset-0 z-10">
