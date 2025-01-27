@@ -21,7 +21,8 @@ export function Landing_page() {
               style={{ lineHeight: '1.5' }}>
               DISCOVER <br /> THE <br /> ARTS OF JAPAN
           </h1>
-
+        
+        {/*
           <div className="absolute inset-0 z-10">
               <Link
                   href="https://www.instagram.com/greenegin.karate"
@@ -70,6 +71,10 @@ export function Landing_page() {
                   />
               </Link>
           </div>
+        */}
+
+
+        
       </div>
   )
 }
