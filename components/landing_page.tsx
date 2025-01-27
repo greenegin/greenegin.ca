@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import kokedamaPic from '/images/kokedamas.svg'
+import kokedamasPic from '/images/kokedamas.svg'
 import karatePic from '/images/karate.svg'
 import backgroundPic from '/images/ritsurin.jpg'
 import { motion } from "framer-motion"
@@ -62,7 +62,7 @@ export function Landing_page() {
                   rel="noopener noreferrer"
               >
                   <Image
-                      src={kokedamaPic}
+                      src={kokedamasPic}
                       alt="Kokedamas"
                       fill
                       style={{objectFit: 'cover'}}
@@ -78,11 +78,11 @@ export function Landing_page() {
           <motion.div
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 1, ease: "easeOut" }}
+            transition={{ duration: 15, ease: "easeOut" }}
           >
             <Link href="https://instagram.com/greenegin.karate" target="_blank">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/karate-5X4WarNITuHxxbJiKpfa5voJtZ1upK.svg"
+                src={karatePic}
                 alt="Karate"
                 width={150}
                 height={150}
@@ -94,11 +94,11 @@ export function Landing_page() {
           <motion.div
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 1, ease: "easeOut" }}
+            transition={{ duration: 15, ease: "easeOut" }}
           >
             <Link href="https://instagram.com/greenegin.kokedamas" target="_blank">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kokedamas-AJfX3EbVL7EufH946Qj51w0yh62i6h.svg"
+                src={kokedamasPic}
                 alt="Kokedamas"
                 width={150}
                 height={150}
