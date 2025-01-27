@@ -37,7 +37,7 @@ export function Landing_page() {
   useEffect(() => {
     animate(karateControls)
     animate(kokedamaControls)
-  }, [])
+  }, [][karateControls, kokedamaControls])
 
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
