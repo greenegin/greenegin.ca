@@ -76,7 +76,7 @@ export function Landing_page() {
         {/* Interactive Buttons */}
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-8">
           <motion.div
-            initial={{ x: -100, opacity: 0 }}
+            initial={{ x: -100, y: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 100 }}
             transition={{ duration: 15, ease: "easeOut" }}
           >
@@ -92,7 +92,7 @@ export function Landing_page() {
           </motion.div>
 
           <motion.div
-            initial={{ x: 100, opacity: 0 }}
+            initial={{ x: 100, y: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 100 }}
             transition={{ duration: 15, ease: "easeOut" }}
           >
