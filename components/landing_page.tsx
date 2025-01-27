@@ -21,8 +21,8 @@ export function Landing_page() {
               style={{ lineHeight: '1.5' }}>
               DISCOVER <br /> THE <br /> ARTS OF JAPAN
           </h1>
-        
-        {/*
+
+        {/* Animated Buttons */}
           <div className="absolute inset-0 z-10">
               <Link
                   href="https://www.instagram.com/greenegin.karate"
@@ -71,9 +71,10 @@ export function Landing_page() {
                   />
               </Link>
           </div>
-        */}
+       
 
-        {/* Interactive Buttons */}
+{/*
+        {/* Moving Buttons */}
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-8">
           <motion.div
             initial={{ x: -100, y: -100, opacity: 0 }}
@@ -107,7 +108,7 @@ export function Landing_page() {
             </Link>
           </motion.div>
         </div>
-
+ */}
         
       </div>
   )
