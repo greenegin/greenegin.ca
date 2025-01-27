@@ -26,7 +26,7 @@ export function Landing_page() {
           <div className="absolute inset-0 z-10">
               <Link
                   href="https://www.instagram.com/greenegin.karate"
-                  className="absolute w-16 h-16 md:w-32 md:h-32 rounded-full overflow-hidden cursor-pointer animate-float-complex-1"
+                  className="absolute w-24 h-24 md:w-48 md:h-48 rounded-full overflow-hidden cursor-pointer animate-float-complex-1"
                   style={{
                       left: '10%',
                       top: '20%',
@@ -49,7 +49,7 @@ export function Landing_page() {
               </Link>
               <Link
                   href="https://www.instagram.com/greenegin.kokedamas"
-                  className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden cursor-pointer animate-float-complex-2"
+                  className="absolute w-24 h-24 md:w-48 md:h-48 rounded-full overflow-hidden cursor-pointer animate-float-complex-2"
                   style={{
                       right: '15%',
                       bottom: '25%',
