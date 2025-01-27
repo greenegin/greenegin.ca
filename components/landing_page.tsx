@@ -74,7 +74,7 @@ export function Landing_page() {
           }}
           transition={{
             y: {
-              duration: 3,
+              duration: 20,
               yoyo: Infinity,
               ease: 'easeInOut',
             },
