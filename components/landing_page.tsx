@@ -10,7 +10,7 @@ import { Zen_Antique_Soft } from 'next/font/google'
 const zenKaku = Zen_Antique_Soft({
   weight: ['400', '700'],
   subsets: ['latin'],
-  display: 'swap',
+  //display: 'swap',
 })
 
 /*
