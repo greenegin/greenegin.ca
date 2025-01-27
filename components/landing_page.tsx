@@ -57,7 +57,7 @@ export function Landing_page() {
       <motion.div
         animate={karateControls}
         className="absolute z-10"
-        initial={{ x: -100, y: window.innerHeight * 0.7 }}
+        initial={{ x: -100, y: typeof window !== 'undefined' ? window.innerHeight * 0.7 : 500 }}
       >
         <Link href="https://instagram.com/greenegin.karate" target="_blank">
           <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden hover:scale-110 transition-transform duration-500">
@@ -75,7 +75,7 @@ export function Landing_page() {
       <motion.div
         animate={kokedamaControls}
         className="absolute z-10"
-        initial={{ x: 100, y: window.innerHeight * 0.7 }}
+        initial={{ x: -100, y: typeof window !== 'undefined' ? window.innerHeight * 0.7 : 500 }}
       >
         <Link href="https://instagram.com/greenegin.kokedamas" target="_blank">
           <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden hover:scale-110 transition-transform duration-500">
