@@ -3,7 +3,7 @@ import { Zen_Antique_Soft } from 'next/font/google';
 import "./globals.css";
 
 const zenAntique = Zen_Antique_Soft({
-  weight: '300',
+  weight: '400',
   subsets: ['latin'],
   display: 'swap',
 });
