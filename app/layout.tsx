@@ -10,7 +10,7 @@ const zenAntique = Zen_Antique_Soft({
 
 export const metadata: Metadata = {
   title: "Discover the Arts of Japan",
-  description: "Karate Lessons and Handmade Kokedamas",
+  description: "Karate Academy and Kokedamas Art",
 };
 
 export default function RootLayout({
