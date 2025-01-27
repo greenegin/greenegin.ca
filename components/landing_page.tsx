@@ -77,7 +77,7 @@ export function Landing_page() {
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-8">
           <motion.div
             initial={{ x: -100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
+            animate={{ x: 0, opacity: 100 }}
             transition={{ duration: 15, ease: "easeOut" }}
           >
             <Link href="https://instagram.com/greenegin.karate" target="_blank">
@@ -93,7 +93,7 @@ export function Landing_page() {
 
           <motion.div
             initial={{ x: 100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
+            animate={{ x: 0, opacity: 100 }}
             transition={{ duration: 15, ease: "easeOut" }}
           >
             <Link href="https://instagram.com/greenegin.kokedamas" target="_blank">
