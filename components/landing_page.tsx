@@ -13,12 +13,14 @@ export function Landing_page() {
   const kokedamaControls = useAnimationControls()
 
   const getRandomPosition = () => {
-    // Keep buttons within 60% - 90% of screen height to avoid title area
+  if (typeof window !== 'undefined') {
     return {
       x: Math.random() * window.innerWidth * 0.6 - window.innerWidth * 0.3,
       y: Math.random() * window.innerHeight * 0.3 + window.innerHeight * 0.6,
     }
   }
+  return { x: 0, y: 0 }
+}
 
   const animate = async (controls) => {
     while (true) {
