@@ -17,13 +17,16 @@ export function Landing_page() {
           <div className="absolute inset-0 bg-black opacity-40"/>
 
           <h1 className="relative z-10 text-3xl md:text-5xl font-bold text-center px-4">
-              D I S C O V E R <br /> T H E <br /> A R T S O F J A P A N
+              //DISCOVER <br /> THE <br /> ARTS OF JAPAN
+            <span className="block">DISCOVER</span>
+            <span className="block">THE</span>
+            <span className="block">ARTS OF JAPAN</span>
           </h1>
 
           <div className="absolute inset-0 z-10">
               <Link
                   href="https://www.instagram.com/greenegin.karate"
-                  className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden cursor-pointer transition-all hover:scale-105 animate-float-complex-1 hover:shadow-lg"
+                  className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden cursor-pointer animate-float-complex-1"
                   style={{
                       left: '10%',
                       top: '20%',
@@ -41,11 +44,12 @@ export function Landing_page() {
                       fill
                       style={{objectFit: 'cover'}}
                       sizes="(max-width: 768px) 128px, 256px"
+                      //className="opacity-100"
                   />
               </Link>
               <Link
                   href="https://www.instagram.com/greenegin.kokedamas"
-                  className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden cursor-pointer transition-all hover:scale-105 animate-float-complex-2 hover:shadow-lg"
+                  className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden cursor-pointer animate-float-complex-2"
                   style={{
                       right: '15%',
                       bottom: '25%',
@@ -63,6 +67,7 @@ export function Landing_page() {
                       fill
                       style={{objectFit: 'cover'}}
                       sizes="(max-width: 768px) 128px, 256px"
+                      //className="opacity-100"
                   />
               </Link>
           </div>
