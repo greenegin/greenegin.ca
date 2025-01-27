@@ -5,7 +5,7 @@ import Image from 'next/image'
 import kokedamaPic from '/images/kokedamas.svg'
 import karatePic from '/images/karate.svg'
 import backgroundPic from '/images/ritsurin.jpg'
-//import { motion } from "framer-motion"
+import { motion } from "framer-motion"
 
 export function Landing_page() {
   return (
