@@ -43,7 +43,7 @@ export function Landing_page() {
                       alt="Karate"
                       fill
                       style={{objectFit: 'cover'}}
-                      sizes="(max-width: 768px) 96px, 224px"
+                      sizes="(max-width: 768px) 128px, 256px"
                       className="opacity-100"
                   />
               </Link>
