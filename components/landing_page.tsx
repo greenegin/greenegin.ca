@@ -16,7 +16,8 @@ export function Landing_page() {
           />
           <div className="absolute inset-0 bg-black opacity-40"/>
 
-          <h1 className="relative z-10 text-4xl md:text-6xl font-bold text-center px-4 tracking-widest leading-relaxed">
+          <h1 className="relative z-10 text-4xl md:text-6xl font-bold text-center px-4 tracking-widest"
+              style={{ lineHeight: '2.5' }}>
               DISCOVER <br /> THE <br /> ARTS OF JAPAN
           </h1>
 
