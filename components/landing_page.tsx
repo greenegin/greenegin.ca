@@ -29,7 +29,7 @@ export function Landing_page() {
                   className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden cursor-pointer animate-float-complex-1"
                   style={{
                       left: '10%',
-                      top: '10%',
+                      top: '20%',
                       animationDuration: '70s',
                       animationTimingFunction: 'ease-in-out',
                       animationIterationCount: 'infinite'
