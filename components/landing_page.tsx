@@ -27,7 +27,7 @@ export function Landing_page() {
               <Link
                   href="https://www.instagram.com/greenegin.karate"
                   //className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden cursor-pointer animate-float-complex-1"
-                  className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden cursor-pointer animate-bounce"
+                  className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden cursor-pointer animate-bounce-1"
                   style={{
                       left: '10%',
                       top: '20%',
