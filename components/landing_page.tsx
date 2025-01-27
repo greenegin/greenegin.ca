@@ -74,7 +74,7 @@ export function Landing_page() {
        
 
 
-        {/*{/* Moving Buttons */}
+        {/*Moving Buttons 
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-8">
           <motion.div
             initial={{ x: -100, y: -100, opacity: 0 }}
@@ -107,7 +107,8 @@ export function Landing_page() {
               />
             </Link>
           </motion.div>
-        </div>*/}
+        </div>
+        */}
  
         
       </div>
