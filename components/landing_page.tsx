@@ -7,12 +7,15 @@ import karatePic from '/images/karate.svg'
 import backgroundPic from '/images/ritsurin.jpg'
 import { Zen_Kaku_Gothic_New } from 'next/font/google'
 
-const zenKaku = Zen_Kaku_Gothic_New({
+const zenKaku = Zen_Antique_Soft({
   weight: ['400', '700'],
   subsets: ['latin'],
   display: 'swap',
 })
 
+/*
+Zen_Kaku_Gothic_New
+*/
 export function Landing_page() {
   return (
       <div className={`relative min-h-screen flex flex-col justify-between overflow-hidden ${zenKaku.className}`}>
