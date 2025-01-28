@@ -67,7 +67,7 @@ const config: Config = {
           to: { height: '0' },
         },
         'orbit-1': {
-          '0%': { transform: 'translate(15%, 75%)' },
+          '0%': { transform: 'translate(-15%, 75%)' },
           '20%': { transform: 'translate(65%, 65%)' },
           '40%': { transform: 'translate(65%, 15%)' },
           '60%': { transform: 'translate(15%, 15%)' },
