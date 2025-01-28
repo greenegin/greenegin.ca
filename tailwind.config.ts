@@ -1,17 +1,23 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
-  // ... (keep existing config)
-  
+  darkMode: ["class"],
+  content: [
+    './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './app/**/*.{ts,tsx}',
+    './src/**/*.{ts,tsx}',
+  ],
   theme: {
-    // ... (keep existing theme settings)
-    
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1400px",
+      },
+    },
     extend: {
-      // ... (keep existing extensions)
-      
       keyframes: {
-        // ... (keep existing keyframes)
-        
         'orbit-1': {
           '0%': { transform: 'translate(20%, 20%)' },
           '25%': { transform: 'translate(60%, 30%)' },
@@ -27,14 +33,13 @@ const config: Config = {
           '100%': { transform: 'translate(-20%, 60%)' },
         },
       },
-      
       animation: {
-        // ... (keep existing animations)
         'orbit-1': 'orbit-1 40s linear infinite',
         'orbit-2': 'orbit-2 40s linear infinite',
       },
     },
   },
+  plugins: [require("tailwindcss-animate")],
 }
 
 export default config
