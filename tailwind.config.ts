@@ -67,7 +67,7 @@ const config: Config = {
           to: { height: '0' },
         },
         'orbit-1': {
-          '0%': { transform: 'translate(-15%, 75%)' },
+          '0%': { transform: 'translate(15%, 75%)' },
           '20%': { transform: 'translate(65%, 65%)' },
           '40%': { transform: 'translate(65%, 15%)' },
           '60%': { transform: 'translate(15%, 15%)' },
@@ -85,7 +85,7 @@ const config: Config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        'orbit-1': 'orbit-1 45s linear infinite',
+        'orbit-1': 'orbit-1 75s linear infinite',
         'orbit-2': 'orbit-2 40s linear infinite',
       },
     },
