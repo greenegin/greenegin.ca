@@ -75,7 +75,7 @@ export function Landing_page() {
         {/* Comment */}
          <div className="absolute bottom-0 w-full z-10 text-center px-4 pb-4 md:pb-8">
               <p className="text-lg md:text-xl">
-                  We are yet to establish our perfect web presence, meanwhile enjoy our Instagram profiles.
+                  We are yet to establish our perfect web presence, meanwhile enjoy our instagram profiles.
               </p>
           </div>
     
