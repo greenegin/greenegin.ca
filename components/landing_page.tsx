@@ -30,7 +30,7 @@ export function Landing_page() {
                   style={{
                       left: '10%',
                       top: '20%',
-                      animationDuration: '30s',
+                      animationDuration: '45s',
                       animationTimingFunction: 'ease-in-out',
                       animationIterationCount: 'infinite'
                   }}
@@ -53,7 +53,7 @@ export function Landing_page() {
                   style={{
                       right: '15%',
                       bottom: '25%',
-                      animationDuration: '70s',
+                      animationDuration: '45s',
                       animationTimingFunction: 'ease-in-out',
                       animationIterationCount: 'infinite'
                   }}
