@@ -22,11 +22,11 @@ export function Landing_page() {
               DISCOVER <br /> THE <br /> ARTS OF JAPAN
           </h1>
 
-        {/* Animated Buttons animate-orbit-1 animate-orbit-2 animate-float-complex-1 animate-float-complex-2*/}
+        {/* Animated Buttons animate-float-complex-1 animate-float-complex-2*/}
           <div className="absolute inset-0 z-10">
               <Link
                   href="https://www.instagram.com/greenegin.karate"
-                  className="absolute w-24 h-24 md:w-48 md:h-48 rounded-full overflow-hidden cursor-pointer"
+                  className="absolute w-24 h-24 md:w-48 md:h-48 rounded-full overflow-hidden cursor-pointer animate-orbit-1"
                 
                   aria-label="Discover Karate Lessons"
                   target="_blank"
@@ -43,7 +43,7 @@ export function Landing_page() {
               </Link>
               <Link
                   href="https://www.instagram.com/greenegin.kokedamas"
-                  className="absolute w-24 h-24 md:w-48 md:h-48 rounded-full overflow-hidden cursor-pointer"
+                  className="absolute w-24 h-24 md:w-48 md:h-48 rounded-full overflow-hidden cursor-pointer animate-orbit-2"
                   
                   aria-label="Discover Handmade Kokedamas"
                   target="_blank"
