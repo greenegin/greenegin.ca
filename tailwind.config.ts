@@ -85,8 +85,8 @@ const config: Config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        'orbit-1': 'orbit-1 20s linear infinite',
-        'orbit-2': 'orbit-2 20s linear infinite',
+        'orbit-1': 'orbit-1 45s linear infinite',
+        'orbit-2': 'orbit-2 45s linear infinite',
       },
     },
   },
