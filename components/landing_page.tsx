@@ -23,7 +23,8 @@ export function Landing_page() {
           </h1>
 
         {/* Animated Buttons */}
-          <div className="absolute inset-0 z-10">
+          <div className="flex-grow relative z-10 w-full">
+            //absolute inset-0 z-10
               <Link
                   href="https://www.instagram.com/greenegin.karate"
                   className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden cursor-pointer animate-float-complex-1"
