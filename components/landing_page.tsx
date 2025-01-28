@@ -26,7 +26,7 @@ export function Landing_page() {
           <div className="absolute inset-0 z-10">
               <Link
                   href="https://www.instagram.com/greenegin.karate"
-                  className="absolute w-32 h-32 md:w-56 md:h-56 rounded-full overflow-hidden cursor-pointer animate-orbit-1"
+                  className="absolute w-24 h-24 md:w-48 md:h-48 rounded-full overflow-hidden cursor-pointer animate-orbit-1"
                   style={{
                       left: '10%',
                       top: '20%',
