@@ -27,7 +27,13 @@ export function Landing_page() {
               <Link
                   href="https://www.instagram.com/greenegin.karate"
                   className="absolute w-24 h-24 md:w-48 md:h-48 rounded-full overflow-hidden cursor-pointer animate-orbit-1"
-                
+                  style={{
+                      left: '10%',
+                      top: '20%',
+                      animationDuration: '70s',
+                      animationTimingFunction: 'ease-in-out',
+                      animationIterationCount: 'infinite'
+                  }}
                   aria-label="Discover Karate Lessons"
                   target="_blank"
                   rel="noopener noreferrer"
