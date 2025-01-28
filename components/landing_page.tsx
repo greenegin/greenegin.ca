@@ -50,7 +50,13 @@ export function Landing_page() {
               <Link
                   href="https://www.instagram.com/greenegin.kokedamas"
                   className="absolute w-24 h-24 md:w-48 md:h-48 rounded-full overflow-hidden cursor-pointer animate-orbit-2"
-                  
+                  style={{
+                      right: '15%',
+                      bottom: '25%',
+                      animationDuration: '70s',
+                      animationTimingFunction: 'ease-in-out',
+                      animationIterationCount: 'infinite'
+                  }}
                   aria-label="Discover Handmade Kokedamas"
                   target="_blank"
                   rel="noopener noreferrer"
