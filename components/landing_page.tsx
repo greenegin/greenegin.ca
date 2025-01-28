@@ -73,7 +73,7 @@ export function Landing_page() {
           </div>
 
         {/* Comment */}
-         <h1 className="relative z-10 text-2xl md:text-4xl font-bold text-center px-4 tracking-widest"
+         <h1 className="relative z-10 text-2xl md:text-4xl font-bold text-center px-4 tracking-widest">
               We are yet to establish our perfect webpresence, meanwhile enjoy our instagram profiles.
           </h1>
     
