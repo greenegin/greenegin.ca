@@ -71,27 +71,12 @@ export function Landing_page() {
                   />
               </Link>
           </div>
-       
 
-
-        {/*RESERVED
-            style={{
-                      left: '10%',
-                      top: '20%',
-                      animationDuration: '70s',
-                      animationTimingFunction: 'ease-in-out',
-                      animationIterationCount: 'infinite'
-                  }}
-            style={{
-                      right: '15%',
-                      bottom: '25%',
-                      animationDuration: '70s',
-                      animationTimingFunction: 'ease-in-out',
-                      animationIterationCount: 'infinite'
-                  }}
-        */}
- 
-        
+        {/* Comment */}
+         <h1 className="relative z-10 text-2xl md:text-4xl font-bold text-center px-4 tracking-widest"
+              We are yet to establish our perfect webpresence, meanwhile enjoy our instagram profiles.
+          </h1>
+    
       </div>
   )
 }
