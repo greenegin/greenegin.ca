@@ -22,18 +22,12 @@ export function Landing_page() {
               DISCOVER <br /> THE <br /> ARTS OF JAPAN
           </h1>
 
-        {/* Animated Buttons */}
+        {/* Animated Buttons animate-orbit-1 animate-orbit-2 animate-float-complex-1 animate-float-complex-2*/}
           <div className="absolute inset-0 z-10">
               <Link
                   href="https://www.instagram.com/greenegin.karate"
-                  className="absolute w-24 h-24 md:w-48 md:h-48 rounded-full overflow-hidden cursor-pointer animate-float-complex-1"
-                  style={{
-                      left: '10%',
-                      top: '20%',
-                      animationDuration: '70s',
-                      animationTimingFunction: 'ease-in-out',
-                      animationIterationCount: 'infinite'
-                  }}
+                  className="absolute w-24 h-24 md:w-48 md:h-48 rounded-full overflow-hidden cursor-pointer"
+                
                   aria-label="Discover Karate Lessons"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -49,14 +43,8 @@ export function Landing_page() {
               </Link>
               <Link
                   href="https://www.instagram.com/greenegin.kokedamas"
-                  className="absolute w-24 h-24 md:w-48 md:h-48 rounded-full overflow-hidden cursor-pointer animate-float-complex-2"
-                  style={{
-                      right: '15%',
-                      bottom: '25%',
-                      animationDuration: '70s',
-                      animationTimingFunction: 'ease-in-out',
-                      animationIterationCount: 'infinite'
-                  }}
+                  className="absolute w-24 h-24 md:w-48 md:h-48 rounded-full overflow-hidden cursor-pointer"
+                  
                   aria-label="Discover Handmade Kokedamas"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -74,40 +62,21 @@ export function Landing_page() {
        
 
 
-        {/*Moving Buttons 
-        <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-8">
-          <motion.div
-            initial={{ x: -100, y: -100, opacity: 0 }}
-            animate={{ x: 0, opacity: 100 }}
-            transition={{ duration: 15, ease: "easeOut" }}
-          >
-            <Link href="https://instagram.com/greenegin.karate" target="_blank">
-              <Image
-                src={karatePic}
-                alt="Karate"
-                width={150}
-                height={150}
-                className="hover:scale-110 transition-transform duration-500"
-              />
-            </Link>
-          </motion.div>
-
-          <motion.div
-            initial={{ x: 100, y: 100, opacity: 0 }}
-            animate={{ x: 0, opacity: 100 }}
-            transition={{ duration: 15, ease: "easeOut" }}
-          >
-            <Link href="https://instagram.com/greenegin.kokedamas" target="_blank">
-              <Image
-                src={kokedamasPic}
-                alt="Kokedamas"
-                width={150}
-                height={150}
-                className="hover:scale-110 transition-transform duration-500"
-              />
-            </Link>
-          </motion.div>
-        </div>
+        {/*RESERVED
+            style={{
+                      left: '10%',
+                      top: '20%',
+                      animationDuration: '70s',
+                      animationTimingFunction: 'ease-in-out',
+                      animationIterationCount: 'infinite'
+                  }}
+            style={{
+                      right: '15%',
+                      bottom: '25%',
+                      animationDuration: '70s',
+                      animationTimingFunction: 'ease-in-out',
+                      animationIterationCount: 'infinite'
+                  }}
         */}
  
         
