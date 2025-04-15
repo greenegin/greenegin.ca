@@ -25,7 +25,7 @@ export function Landing_page() {
         {/* Animated Buttons animate-float-complex-1 animate-float-complex-2*/}
           <div className="absolute inset-0 z-10">
               <Link
-                  href="https://www.instagram.com/greenegin.karate"
+                  href="https://karate.greenegin.ca"
                   className="absolute w-24 h-24 md:w-48 md:h-48 rounded-full overflow-hidden cursor-pointer animate-orbit-1"
                   style={{
                       left: '10%',
